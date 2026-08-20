@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "If you use this software or computational materials, please cite them using the metadata in this file."
+title: "Bitcoin CFGI Forecasting"
+type: software
+
+authors:
+  - family-names: "Moshirian Dezfulian"
+    given-names: "Alireza"
+    affiliation: "Department of Economics, Khatam University, Tehran, Iran"
+
+  - family-names: "Kalantari"
+    given-names: "Robab"
+    affiliation: "Department of Finance, Khatam University, Tehran, Iran"
+
+  - family-names: "Bagheri Pormehr"
+    given-names: "Sholeh"
+    affiliation: "Department of Economics, Khatam University, Tehran, Iran"
+
+version: "1.0.0"
+date-released: 2026-08-21
+
+repository-code: "https://github.com/alirezamoshiriandezfoolian/bitcoin-cfgi-forecasting"
+url: "https://github.com/alirezamoshiriandezfoolian/bitcoin-cfgi-forecasting"
+
+abstract: >-
+  Python source code, data-preparation notebooks, retained hyperparameter-
+  optimization records, and computational outputs associated with the study
+  "Investigating the Impact of the Crypto Fear and Greed Index on Bitcoin
+  Price Using a Deep Learning Bi-LSTM Model."
+
+keywords:
+  - "Bitcoin"
+  - "Crypto Fear and Greed Index"
+  - "Bi-LSTM"
+  - "investor sentiment"
+  - "time series forecasting"
+  - "hyperparameter optimization"
+  - "Optuna"
