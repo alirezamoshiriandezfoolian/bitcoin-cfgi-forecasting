@@ -636,7 +636,10 @@ terms of use when obtaining, using, or redistributing source data.
 
 ## Citation
 
-If you use this repository or the associated methodology, please cite
-the corresponding article.
+The computational materials associated with this study are archived on Zenodo:
 
-Citation details will be added following publication.
+**Version 1.0.0:** https://doi.org/10.5281/zenodo.22036493
+
+The latest version of the project source code is maintained in this GitHub repository.
+
+If you use this repository or the associated methodology, please cite the corresponding article when available. Article citation details will be added following publication.
