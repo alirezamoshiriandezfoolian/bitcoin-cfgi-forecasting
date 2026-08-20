@@ -1,0 +1,93 @@
+# ============================================================
+# Python
+# ============================================================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python packaging / build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+
+# ============================================================
+# Jupyter
+# ============================================================
+
+.ipynb_checkpoints/
+
+
+# ============================================================
+# IDE / Editor files
+# ============================================================
+
+.vscode/
+.idea/
+
+
+# ============================================================
+# Operating-system files
+# ============================================================
+
+desktop.ini
+Thumbs.db
+.DS_Store
+
+
+# ============================================================
+# TensorFlow / Keras model artifacts
+# Generated during training/evaluation and not version-controlled
+# ============================================================
+
+*.h5
+*.keras
+
+
+# ============================================================
+# Temporary HPO model/checkpoint directories
+# These are generated during Optuna trials and can become large
+# ============================================================
+
+outputs_base_final/
+outputs_CFGI_final/
+outputs_new_features_price_corrected/
+
+
+# ============================================================
+# Temporary / generated logs
+# ============================================================
+
+*.log
+
+
+# ============================================================
+# Temporary files
+# ============================================================
+
+*.tmp
+*.temp
+~$*
+
+
+# ============================================================
+# IMPORTANT:
+# Final research outputs are intentionally NOT ignored.
+#
+# Keep under version control:
+# - outputs/test_results_final.csv
+# - outputs/cfgi_segment_eval_by_date_final/
+# - outputs/cfgi_extreme_train_eval1_final/
+# - optuna_results_price_base_final/*.db
+# - optuna_results_price_CFGI_final/*.db
+# - optuna_results_new_features_price_corrected/*.db
+# ============================================================
+data/
